@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frase Colorida</title>
+  <style>
+    @keyframes changeColor {
+      0% { color: red; }
+      25% { color: blue; }
+      50% { color: green; }
+      75% { color: orange; }
+      100% { color: purple; }
+    }
+
+    .color-changing-text {
+      animation: changeColor 5s infinite; /* 5s representa a duração da animação */
+    }
+  </style>
+</head>
+<body>
+  <p class="color-changing-text">Esta frase muda de cor!</p>
+</body>
+</html>

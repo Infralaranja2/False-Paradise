@@ -1,0 +1,52 @@
+body {
+    background: rgb(39, 39, 39);
+    background: linear-gradient(0deg, rgba(39, 39, 39, 1) 0%, rgba(167, 167, 167, 1) 100%);
+    background-attachment: scroll;   
+
+}
+    
+
+
+* {
+    margin: 0%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.card {
+    background-image: url(Preto.png);
+    align-items: center;
+}
+
+main {
+    padding-left: 25%;
+    width: 70%;
+    margin-left: 3vw;
+    background-color: white;
+}
+
+.btn:hover {
+    transition: 500ms;
+    scale: 115%;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 0 10px;
+    margin: 50px;
+    background-color: rgb(39, 39, 39);
+}
+
+.fundo {
+    color: black;
+    align-items: center;
+}
+
+.CORPO {
+    background-color: rgb(77, 77, 77);
+    border-radius: 20px;
+}

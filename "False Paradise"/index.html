@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Posts de Blog com jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .post {
+      margin: 20px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .post-title {
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .post-content {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Posts de Blog</h1>
+
+  <div class="post">
+    <div class="post-title">Kanye West</div>
+    <div class="post-content">
+      
+    </div>
+  </div>
+
+  <div class="post">
+    <div class="post-title">Taylor Swift</div>
+    <div class="post-content">
+      UM LIXO
+    </div>
+  </div>
+
+  <div class="post">
+    <div class="post-title">Título do Post 3</div>
+    <div class="post-content">
+      Conteúdo do Post 3.
+    </div>
+  </div>
+
+  <script>
+    // Use jQuery para expandir e recolher detalhes do post
+    $(document).ready(function() {
+      $(".post-title").click(function() {
+        var content = $(this).next(".post-content");
+        content.slideToggle();
+      });
+    });
+  </script>
+</body>
+</html>
+
+
+Só pra falar mn , pra tu abrir os seus codigos la no google direto, é só usar o comando "Ctrl+a,Ctrl+s"(ss, eu mudei kkkk)Foi mal n avisar mn ,Fica com Deus 
